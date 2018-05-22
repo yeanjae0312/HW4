@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원 추가"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbbbbbb"
+        android:hint="이름"
+        android:textSize="24dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <DatePicker
+            android:id="@+id/dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </DatePicker>
+    </ScrollView>
+
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbbbbbb"
+        android:hint="전화번호"
+        android:inputType="number"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추가"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
